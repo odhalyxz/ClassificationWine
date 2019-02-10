@@ -6,8 +6,8 @@ Configuracion clasificador: KNeighborsClassifier(algorithm='auto', leaf_size=30,
            weights='uniform')
 
 
-# MCC= 0.9725108966955406
-# C lassification report in test
+
+# Classification report in test
              precision    recall  f1-score   support
 
           0       0.95      1.00      0.97        18
@@ -15,7 +15,7 @@ Configuracion clasificador: KNeighborsClassifier(algorithm='auto', leaf_size=30,
           2       1.00      1.00      1.00        15
 
 avg / total       0.98      0.98      0.98        54
-
+MCC= 0.9725108966955406
 # Confusion_matrix
 [[18  0  0]
  [ 1 20  0]
